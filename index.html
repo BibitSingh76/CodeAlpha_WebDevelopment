@@ -2,60 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
+    <title>My Work</title>
     <style>
         *{
             margin:0;
             padding:0;
             box-sizing:border-box;
         }
+
         body{
             font-family:Arial,sans-serif;
-            background:linear-gradient(135deg,#141e30,#243b55);
+            background:linear-gradient(135deg,#0f172a,#1e293b);
             min-height:100vh;
             display:flex;
             justify-content:center;
             align-items:center;
         }
+
         .container{
-            text-align:center;
-            background:white;
+            width:420px;
+            background:rgba(255,255,255,0.08);
+            backdrop-filter:blur(10px);
+            border:1px solid rgba(255,255,255,0.1);
+            
+            border-radius:20px;
             padding:40px;
-            border-radius:15px;
-            width:400px;
-            box-shadow:0 0 20px rgba(0,0,0,0.3);
+            text-align:center;
+            box-shadow:0 0 30px rgba(0,0,0,0.4);
         }
+
         h1{
-            margin-bottom:30px;
-            color:#243b55;
+            color:white;
+            margin-bottom:35px;
+            font-size:2.2rem;
+            letter-spacing:1px;
         }
         .project-link{
+            
             display:block;
             text-decoration:none;
-            background:#243b55;
+            background:linear-gradient(135deg,#2563eb,#1d4ed8);
             color:white;
-            padding:15px;
-            margin:15px 0;
-            border-radius:10px;
+            padding:16px;
+            
+            margin:18px 0;
+            border-radius:12px;
             font-size:1.1rem;
+            font-weight:bold;
             transition:0.3s;
         }
-        .project-link:hover{
-            background:#141e30;
-            transform:scale(1.03);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>My Projects</h1>
-        <a class="project-link"
-        href="Task-1-Age-Calculator/">
-            Age Calculator
-        </a>
-    </div>
 
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>My Work</h1>
+        <a class="project-link" href="Task-1-Age-Calculator/">Age Calculator</a>
+    </div>
 </body>
 </html>
